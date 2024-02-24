@@ -1,0 +1,82 @@
+repo_name: cristianospsp/alura-jms
+report_id: d445a50ef6ac9e35e75ac75d89593941
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-24T20:56:56+00:00'
+requested_by: cristianospsp
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/cristianospsp/alura-jms
+  detection_source: Repo Metadata
+- name: Java EE
+  description: The standard in community-driven enterprise software
+  website_url: http://www.oracle.com/technetwork/java/javaee/overview/index.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4522/652rxwyK_400x400.png
+  detection_source_url: https://github.com/cristianospsp/alura-jms/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Cristianospsp
+  last_updated_on: 2016-08-27 18:35:03.000000000 Z
+- name: ActiveMQ
+  description: A message broker written in Java together with a full JMS client
+  website_url: http://activemq.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1062/default_08edb6f82e2c79424efc1e297ab096e50acd8e0b.jpg
+  detection_source_url: https://github.com/cristianospsp/alura-jms/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Cristianospsp
+  last_updated_on: 2016-08-27 18:35:03.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/cristianospsp/alura-jms
+  detection_source: Repo Metadata
+- name: javax:javaee-api
+  description: Java
+  version: '7.0'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/alura-jms/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Cristianospsp
+  last_updated_on: 2016-08-27 18:35:03.000000000 Z
+- name: org.apache.activemq:activemq-all
+  description: Puts together an ActiveMQ jar bundle
+  version: 5.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/alura-jms/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Cristianospsp
+  last_updated_on: 2016-08-27 18:35:03.000000000 Z
